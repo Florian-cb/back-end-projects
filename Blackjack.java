@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Blackjack {
 
+    private static final int BUST_LIMIT = 21;
     private static final int DEALER_STAND_THRESHOLD = 17;
 
     // Function to calculate the best hand value
